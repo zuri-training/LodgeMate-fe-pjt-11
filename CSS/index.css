@@ -6,6 +6,7 @@
 
 body {
   font-size: 18px;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 3rem;
@@ -38,6 +39,10 @@ h4 {
 .navbar-brand span {
   color: #2c98d6;
 }
+.brand-header {
+  color:#131313;
+  font-size: 2.4em;
+}
 .nav-link {
   color: #ffffff;
   font-weight: 600;
@@ -50,7 +55,21 @@ h4 {
   color: #ffffff;
   margin-right: 7px;
 }
-
+div#navbarNav {
+  position: relative;
+  right: 7em;
+  text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  margin-bottom: 20px;
+}
+a.nav-link.btn {
+  padding: 10px 40px;
+  margin: 0 auto;
+}
+button.navbar-toggler {
+  margin-left: 4em;
+}
 /*    -----------   Carousel  ------------  */
 
 .carousel-item {
