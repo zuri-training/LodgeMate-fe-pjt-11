@@ -11,53 +11,29 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/login.css" />
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/header_footer.css">
   </head>
   <body>
     <!-- Header -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" >
-      <div>
-        <a class="navbar-brand" href="#">Lodge<span>Mate</span></a>
-      </div>
-      <div>
-        <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Listings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Add Listing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link btn" href="login.html">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link btn" href="#">Register</a>
-          </li>
-        </ul>
-      </div>
-      
-      </div>
-    </nav>
-    <!-- Header ends -->
+    <nav class="nav">
+            <a class="navbar-brand" href="#">Lodge<span>Mate</span></a>
+            
+            <a id="ham">
+              <span class="bar line1"></span>
+              <span class="bar line2"></span>
+              <span class="bar line3"></span>
+              </a>
+           <div class="nav-links">
+              <a class="nav-item active" href="index.html">Home</a>
+              <a class="nav-item" href="#about">Listings</a>
+              <a class="nav-item" href="#about">About Us</a>
+              <a class="nav-item" href="#about">Add Listing</a>
+              <a class="nav-item btn" href="login.html">Login</a>
+              <a class="nav-item btn" href="#contact">Sign Up</a>
+          </div>
+            
+      </nav>
+
     <main>
       <div class="container ">
         <div class="row login-form">
