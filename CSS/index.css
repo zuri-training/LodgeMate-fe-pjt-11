@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 18px;
-}
 h1 {
   font-size: 3rem;
 }
@@ -65,10 +62,12 @@ h4 {
 .steps {
   padding: 20px;
   margin: 30px auto;
+  
 }
 .card {
   display: block;
   text-align: center;
+  background-color: inherit;
 }
 .card-body p {
   font-size: 1.1em;
@@ -103,7 +102,7 @@ h4 {
   display: block;
   text-align: center;
   margin: 20px auto;
-  background-color: #fefefe;
+  background-color: inherit;
 }
 .listing-item {
   margin: 10px auto;
@@ -117,7 +116,7 @@ h4 {
 }
 
 .testimonial {
-  background-color: #ededed;
+  background-color: inherit;
   height: 300px;
   margin: 30px auto;
 }

@@ -10,3 +10,12 @@ const toggle = () => {
   });
 };
 toggle(); 
+
+
+const darkmode = () =>{
+  const darkBtn = document.querySelector(".fa-moon-o");
+  const element = document.body;
+  darkBtn.addEventListener("click", () => {
+    element.classList.toggle("dark-mode-bg");
+  })
+}; darkmode();
