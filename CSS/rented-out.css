@@ -1,0 +1,22 @@
+.title {
+  position: relative;
+  bottom: -40%;
+}
+.half-bg .linethrough {
+  text-decoration: line-through;
+  display: flex;
+}
+.status {
+  font-weight: 600;
+  float: right;
+  display: flex;
+}
+.rent-status {
+  position: relative;
+  bottom: -50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
