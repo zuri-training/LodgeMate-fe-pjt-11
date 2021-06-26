@@ -4,15 +4,29 @@
 
 .listing {
   padding: 20px;
-  display: block;
-  text-align: center;
   background-color: inherit;
 }
 
 .listing-item {
   margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
+.listing-text{
+    text-align: center;
+    width: 99%;
+    background-color: #46474d;
+    padding: 20px;
+    border: none;
+}
+.listing-text span{
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
 .listing-text h4{
     font-size: 1.2rem;
 }
@@ -39,4 +53,45 @@
 .blue-header {
   color: #2c98d6;
   margin: 10px auto;
+}
+
+.search {
+  padding: 20px;
+  margin: 20px auto;
+}
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 7px;
+}
+
+.search input {
+  border: 1px solid #2c98d6;
+  padding: 10px;
+  outline: none;
+}
+.search-btn {
+  padding: 10px;
+  background-color: #2c98d6;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+#page1{
+    display: none; 
+}
+.page-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.next,
+.prev{
+    margin: 3px;
+    color: #2c98d6;
+    background-color: #1c1c1c;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
 }
