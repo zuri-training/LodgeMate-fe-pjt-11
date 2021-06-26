@@ -9,13 +9,31 @@ const toggle = () => {
     nav.classList.toggle("show");
   });
 };
-toggle(); 
+toggle();
 
-
-const darkmode = () =>{
+const darkmode = () => {
   const darkBtn = document.querySelector(".fa-moon-o");
   const element = document.body;
   darkBtn.addEventListener("click", () => {
     element.classList.toggle("dark-mode-bg");
-  })
-}; darkmode();
+  });
+};
+darkmode();
+
+const pageBtns = () => {
+  const nextBtn = document.querySelector(".next");
+  const prevBtn = document.querySelector(".prev");
+  const firstPage = document.querySelector("#page1");
+  const secondPage = document.querySelector("#page2");
+
+  nextBtn.addEventListener("click", () => {
+     firstPage.style.display = "none" ;
+     secondPage.style.display = "block";
+     
+  });
+  prevBtn.addEventListener("click", () => {
+      firstPage.style.display = "block";
+      secondPage.style.display = "none"
+  });
+};
+pageBtns();
