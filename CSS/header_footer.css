@@ -106,7 +106,7 @@ h4 {
   padding: 8px;
   color: #000000;
   cursor: pointer;
-  box-shadow:  -3px -3px 7px #000000, 2px 2px 5px #101010;
+  box-shadow: 2px 2px 5px #101010;
 }
 
 .dark-mode-bg{
