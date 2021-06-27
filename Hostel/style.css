@@ -1,0 +1,136 @@
+.img-responsive{
+    margin-right: 2rem;
+    width: 100%;
+    height: auto;
+    display: block;
+   }
+   .text-lodge{
+     color: #2e97db;
+   }
+   .split{
+    display: flex;
+    justify-content: space-between;
+   }
+   .underline{
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+   }
+   .desc{
+    width: fit-content;
+   }
+   .available{
+    color: lime;
+   }
+   
+   .medium-icon{
+    font-size: 30px;
+   }
+   ul{
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+   .br{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #222222;
+    display: grid;
+    place-items: center;
+   }
+   .bro{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #323232;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+   }
+   
+   .lodge{
+    color: #2e97db;
+   }
+   .darkless{
+    background-color: #323232;
+    border-radius: 10px;
+   }
+
+   .medium-icon{
+    font-size: 30px;
+   }
+   .forming{
+    padding: 2rem 10rem;
+    
+   }
+   
+   .button{
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+   }
+   ul{
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+   .br{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #222222;
+    display: grid;
+    place-items: center;
+   }
+
+   .push-down{
+    margin-top: 10rem;
+   }
+   .heado{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+   }
+   
+   .b{
+    font-weight: 500;
+   }
+   
+   
+   @media screen and (max-width:600px) {
+    .forming{
+     padding: 1rem ;
+    }
+    .header-list{
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+     }
+    
+   .push-down{
+    margin-top: 1rem;
+   }
+   .heado{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+   }
+   .naving-item{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   }
+   }
