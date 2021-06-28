@@ -52,7 +52,7 @@ Link to hosted page : https://mo-renike.github.io/LodgeMate-fe-pjt-11/index.html
    github profile: https://www.github.com/@ebukaharry
    task : Code about-us page, sign in pages(student, admin and landlord), sign-up pages(student and landlord)
 
-5. Name : Frank
+5. Name : Franklin U.O. Ohaegbulam
    Email: ohaegbulamfrank@gmail.com 
    github profile: https://www.github.com/@frankiefab100
    task : Code admin dashboard
