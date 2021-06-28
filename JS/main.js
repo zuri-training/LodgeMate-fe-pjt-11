@@ -1,7 +1,9 @@
+// carousel
 $(".carousel").carousel({
   interval: 3000,
 });
 
+// navbar toggler
 const toggle = () => {
   const burger = document.querySelector("#ham");
   const nav = document.querySelector(".nav-links");
@@ -11,6 +13,7 @@ const toggle = () => {
 };
 toggle();
 
+// dark mode
 const darkmode = () => {
   const darkBtn = document.querySelector(".fa-moon-o");
   const element = document.body;
@@ -20,6 +23,7 @@ const darkmode = () => {
 };
 darkmode();
 
+// page toggler
 const pageBtns = () => {
   const nextBtn = document.querySelector(".next");
   const prevBtn = document.querySelector(".prev");
@@ -27,13 +31,12 @@ const pageBtns = () => {
   const secondPage = document.querySelector("#page2");
 
   nextBtn.addEventListener("click", () => {
-     firstPage.style.display = "none" ;
-     secondPage.style.display = "block";
-     
+    firstPage.style.display = "none";
+    secondPage.style.display = "block";
   });
   prevBtn.addEventListener("click", () => {
-      firstPage.style.display = "block";
-      secondPage.style.display = "none"
+    firstPage.style.display = "block";
+    secondPage.style.display = "none";
   });
 };
 pageBtns();
