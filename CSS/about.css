@@ -1,0 +1,49 @@
+.about-heading {
+  padding-top: 3em;
+  margin-top: 2em;
+  font-weight: 700;
+}
+.blue-header {
+    padding-top: 0;
+}
+
+.about-opening {
+    font-size: 21px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.about-sub-heading {
+    color: #2c98d6;
+    padding-top: 3em;
+}
+.about-img {
+    width: 65%;
+}
+.about-p {
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 62px;
+}
+.cozy {
+    padding: 20px;
+}
+button {
+    background-color: rgb(224, 52, 52);
+    color: #fff;
+}
+.about-btn {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 15px;
+    width: 325px;
+    margin: -19px;
+}
+.testimonial {
+    margin: 0 auto;
+}
+.carousel {
+    margin-top: 0;
+}
