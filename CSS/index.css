@@ -104,20 +104,35 @@ h4 {
 
 .listing {
   padding: 20px;
-  display: block;
-  text-align: center;
-  margin: 20px auto;
   background-color: inherit;
 }
+
 .listing-item {
   margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
 }
-.listing-text {
-  font-weight: 700;
+
+.listing-text{
+    text-align: center;
+    width: 99%;
+    background-color: #46474d;
+    padding: 20px;
+    border: none;
 }
-.listing img {
-  width: 650px;
-  height: 365px;
+.listing-text span{
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+.listing-text h4{
+    font-size: 1.2rem;
+}
+
+.listing-text p{
+    font-weight: 500;
 }
 
 .testimonial {
