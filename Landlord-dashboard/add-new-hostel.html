@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Listing</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/header_footer.css" />
+    <link rel="stylesheet" href="../CSS/add-new-hostel.css" />
+  </head>
+  <body id="home">
+    
+<!-- Header -->
+    <nav class="nav">
+      <a class="navbar-brand" href="#">Lodge<span>Mate</span></a>
+
+      <a id="ham">
+        <span class="bar line1"></span>
+        <span class="bar line2"></span>
+        <span class="bar line3"></span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-item" href="./Landlord-dashboard.html">My Listings</a>
+        <a class="nav-item" href="./available-hostels.html">Available Listings</a>
+        <a class="nav-item" href="./rented-out.html">Rented Out</a>
+        <a class="nav-item active" href="./add-new-hostel.html">Add New Listing</a>
+        <a href="./landlord-profile.html" class="ll-profile" style="width:40px;"><span class="profile"></span></a>
+        <a class="nav-item btn" href="/index.html">Sign Out</a>
+      </div>
+    </nav>
+
+<!--              End of Nav     -->
+
+    <!-- container                                   -->
+      <h2 class="-title">add new Listing</h2>
+
+    <section class="new-hostel">
+      <div class="image-input">
+        <form method="POST" action="">
+          <!-- <label for="image1">Select Image</label> -->
+          <input
+            type="file"
+            name="image1"
+            id="image1"
+            accept=".jpeg, .jpg, .png"
+          />
+          <!-- <label for="image2">Select Image</label> -->
+          <input
+            type="file"
+            name="image2"
+            id="image2"
+            accept=".jpeg, .jpg, .png"
+          />
+          <!-- <label for="image3">Select Image</label> -->
+          <input
+            type="file"
+            name="image3"
+            id="image3"
+            accept=".jpeg, .jpg, .png"
+          />
+          <!-- <label for="image4">Select Image</label> -->
+          <input
+            type="file"
+            name="image4"
+            id="image4"
+            accept=".jpeg, .jpg, .png"
+          />
+          <div class="upload-btn">
+            <button type="submit">Upload</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="input-field">
+        <form action="" method="post">
+          <div class="names field-width">
+            <input
+              type="text"
+              name="hostel-name"
+              id="hostel-name"
+              placeholder="Hostel Name"
+              required
+            />
+            <input
+              type="text"
+              name="hostel-address"
+              id="hostel-address"
+              placeholder="Hostel Address"
+              required
+            />
+          </div>
+          <div class="facilities-options field-width">
+            <h2>Hostel Faciliites</h2>
+            <div class="form-options">
+              <form action="" method="post" aria-required="true">
+                <input type="checkbox" name="water" id="water" />
+                <label for="water">Water</label>
+                <input type="checkbox" name="electricity" id="electricity" />
+                <label for="electricity">Electricity</label>
+                <input type="checkbox" name="a-c" id="a-c" />
+                <label for="a-c">Air Condition</label>
+                <input type="checkbox" name="w-h" id="w-h" />
+                <label for="w-h">Water Heater</label>
+                <input type="checkbox" name="gym" id="gym" />
+                <label for="gym">Gym</label>
+                <input type="checkbox" name="security" id="security" />
+                <label for="security">Security</label>
+                <input type="checkbox" name="f-w" id="f-w" />
+                <label for="f-w">Free WiFi</label>
+                <input type="checkbox" name="p-s" id="p-s" />
+                <label for="p-s">Parking Space</label>
+              </form>
+            </div>
+          </div>
+          <div class="hostel-type field-width">
+            <h2>Hostel Type</h2>
+            <div class="hostel-options">
+              <form action="" method="get">
+                <input type="radio" name="hostel-type" id="hostel-one" />
+                <label for="hostel-one">One Bedroom</label>
+                <input type="radio" name="hostel-type" id="hostel-two" />
+                <label for="hostel-two">Two Bedroom</label>
+                <input type="radio" name="hostel-type" id="hostel-three" />
+                <label for="hostel-three">Three Bedroom</label>
+                <input type="radio" name="hostel-type" id="shared" />
+                <label for="shared">Shared</label>
+              </form>
+            </div>
+          </div>
+
+          <div class="desc-text field-width">
+            <form action="" method="post">
+              <div class="institution-name">
+                <input
+                  type="text"
+                  name="institution-name"
+                  id="institution-name"
+                  placeholder="Institution Name"
+                  required
+                />
+                <input
+                  type="text"
+                  name="description"
+                  id="description"
+                  placeholder="Description"
+                  required
+                />
+              </div>
+              <textarea
+                name="additional-info"
+                id="additional-info"
+                placeholder="Additional information"
+                cols="40"
+                rows="5"
+                class="field-width"
+              ></textarea>
+            </form>
+          </div>
+          <div class="submit-btns">
+            <button><a href="landlord-dashboard.html">Cancel</a></button>
+            <button type="submit">Add</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- container end                                             -->
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div>
+              <a class="navbar-brand" href="#">Lodge<span>Mate</span></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="social-icons">
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                <a class="github" href="#"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#">Schools</a></li>
+              <li><a href="#">Listings</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#/">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Add Listing</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <a href="#home"><i class="fa fa-arrow-up"></i></a>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All Rights Reserved by <a href="#">PJT-11</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+<!--          Footer ends           -->
+
+
+<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../JS/main.js"></script>
+
+
+<!-- Header and footer were designed by Mo -->
+  </body>
+</html>
