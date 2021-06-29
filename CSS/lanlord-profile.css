@@ -7,9 +7,20 @@
 }
 
 /*        Landlord active state */
-.--lp {
-  border-bottom: 2px solid #ff3a3a;
+.ll-active {
+  border: 2px solid #2c98d6;
   width: fit-content;
+}
+
+
+.ll-profile {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: url(../images/landlordProfileImage.png);
+  background-size: 40px 40px;
+  margin: auto 10px;
 }
 
 /*        End */
