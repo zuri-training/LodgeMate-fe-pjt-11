@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+input,
+textarea {
+  border: 1px solid rgb(141, 141, 141);
+  font-size: 14px;
+}
+label,
+button {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+.-title {
+  position: relative;
+  top: 100px;
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  align-items: center;
+  text-transform: uppercase;
+}
+.new-hostel {
+  width: 80%;
+  display: flex;
+  margin: 120px auto 30px auto;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+}
+.image-input {
+  width: 80%;
+  margin: 0 auto;
+}
+.image-input form input {
+  display: flex;
+  padding: 0px 24px 0px 0px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 80%;
+}
+.input-field {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.field-width {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.names input {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.facilities-options h2,
+.hostel-type h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: justify;
+  width: fit-content;
+  border-bottom: 2px solid #ff3a3a;
+}
+.facilities-options form input,
+.facilities-options label,
+.hostel-options form input {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.desc-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.desc-text input {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+.desc-text textarea {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+.submit-btns,
+.upload-btn {
+  display: inline-flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.submit-btns button,
+.image-input button {
+  padding: 6px 24px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 724px) {
+  .new-hostel {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+  }
+  .image-input {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .input-field form,
+  .image-input form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .field-width {
+    width: 100%;
+  }
+  .hostel-options form {
+    flex-direction: row;
+  }
+  .submit-btns {
+    display: inline-flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .upload-btn {
+    display: inline-flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .submit-btns button,
+  .upload-btn button {
+    margin: 10px 0;
+  }
+}
