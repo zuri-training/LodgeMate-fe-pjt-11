@@ -1,0 +1,70 @@
+.lodge{
+    color: #2e97db;
+   }
+   .darkless{
+    background-color: #323232;
+    border-radius: 10px;
+   }
+   .footer-bg{
+    background-color: #323232;
+    padding: 1rem 1rem;
+   }
+   .header-bg{
+    background-color: #323232;
+   }
+   .medium-icon{
+    font-size: 30px;
+   }
+   .forming{
+    padding: 2rem 10rem;
+    
+   }
+   .header-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .button{
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+   }
+   ul{
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+   .br{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #222222;
+    display: grid;
+    place-items: center;
+   }
+   .footer-icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   }
+   
+   @media screen and (max-width:600px) {
+    .forming{
+     padding: 1rem ;
+    }
+    .header-list{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   }
+   }
+
+   main {
+       margin-top: 100px;
+   }
