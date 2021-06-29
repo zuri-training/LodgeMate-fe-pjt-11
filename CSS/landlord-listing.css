@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.listing-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto 20px auto;
+}
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.content-wrapper p {
+  font-size: 14px;
+  list-style: none;
+}
+.content-wrapper li {
+ font-size: 14px;
+  list-style: none; 
+}
+.edit-btn-link a {
+  font-size: 14px;
+  list-style: none;
+}
+.desc-text li {
+  list-style: lower-roman;
+}
+.name-price,
+.description,
+.facilities,
+.status {
+  padding: 5px 20px;
+}
+.image-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+.image-flex img:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+
+.name-price h2 {
+  border-bottom: 2px solid #ff3a3a;
+  font-size: 20px;
+}
+.name-price h1 {
+  color: #81d7fc;
+  font-size: 24px;
+}
+.description h3,
+.facilities h3,
+.status h3 {
+  color: #ff3a3a;
+  margin-bottom: 10px;
+  width: fit-content;
+  border-bottom: 2px solid #ff3a3a;
+  font-size: 18px;
+  width: fit-content;
+}
+.edit-btn-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.edit-btn-link a {
+  text-decoration: none;
+}
+.edit-btn-link .edit-btn {
+  padding: 4px 36px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ff3a3a;
+  background: #ffffff;
+  color: #ff3a3a;
+}
+.edit-btn-link .remove-btn {
+  color: #ff3a3a;
+  padding: 4px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #ff3a3a;
+}
+.edit-btn-link a:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease;
+  text-decoration: none;
+}
+@media screen and (max-width: 984px) {
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: baseline;
+  }
+  .name-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 699px) {
+  .listing-container {
+    width: 100%;
+  }
+  .name-price {
+    flex-wrap: wrap;
+  }
+}

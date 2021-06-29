@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/*        Landlord active state */
+.--lp {
+  border-bottom: 2px solid #ff3a3a;
+  width: fit-content;
+}
+
+/*        End */
+
+
+.--profile {
+  width: 80%;
+  height: 535px;
+  padding: 40px 80px;
+  margin: 120px auto 40px auto;
+  box-shadow: 1px 1px 8px 4px #EDEDED;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.profile-details {
+  margin: 20px 0;
+}
+.profile-details p {
+  margin: 12px 0;
+  font-size: 14px;
+}
+.profile-details span{
+  font-weight: 600;
+}
+
+
+
+/* .profile-details button {
+  font-size: 14px;
+  padding: 4px 24px;
+  border-radius: 8px;
+  background-color: #fff;
+color: #ff3a3a;
+border: 1px solid #ff3a3a;
+}
+.profile-details button:hover {
+  transform: scale(1.05);
+  transition: 0.4s ease;
+} */

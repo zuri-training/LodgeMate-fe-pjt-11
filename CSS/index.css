@@ -256,9 +256,9 @@ h4 {
     font-size: 2em;
   }
   .carousel-caption h3,
-  .steps h3 ,
+  .steps h3,
   .search h3,
-  .listing h3{
+  .listing h3 {
     font-size: 1.4em;
   }
   .social-icons li.title {
@@ -294,4 +294,15 @@ h4 {
   .carousel-caption {
     margin: 0;
   }
+}
+
+/* Profile - My account */
+.profile {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background: url(/images/hostelRoom.jpg);
+  background-size: 40px 40px;
+  border-radius: 50px;
 }
