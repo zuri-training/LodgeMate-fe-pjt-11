@@ -4,6 +4,16 @@
   font-family: Montserrat, "Trebuchet MS", "Lucida Sans Unicode",
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
+.ll-profile {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: url(../images/landlordProfileImage.png) no-repeat;
+  background-size: 40px 40px;
+  margin: auto 10px;
+}
 /*        Cards Container        */
 .card-container {
   position: relative;
