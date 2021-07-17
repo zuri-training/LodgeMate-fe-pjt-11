@@ -31,7 +31,7 @@ https://www.figma.com/file/iSvs4tYsfc8C5ps4NaCpk2/LodgeMate-Designs?node-id=216%
 
 Link to hosted page : https://mo-renike.github.io/LodgeMate-fe-pjt-11/index.html
 
-## Frontend developers Details
+## Frontend developers Detail
 1. Name : Oyewole Morenike (FE lead)
    Email: herroyalpianist@gmail.com 
    github profile: https://www.github.com/@mo-renike
